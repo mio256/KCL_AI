@@ -1,0 +1,21 @@
+{
+  "person1": {
+    "name": "佐藤花子",
+    "age": 28,
+    "occupation": "グラフィックデザイナー",
+    "hobbies": ["イラスト描画", "旅行"]
+  },
+  "person2": {
+    "name": "鈴木一郎",
+    "age": 42,
+    "occupation": "会計士",
+    "hobbies": ["ジョギング", "読書"]
+  },
+  "person3": {
+    "name": "伊藤涼子",
+    "age": 36,
+    "occupation": "教師",
+    "hobbies": ["映画鑑賞", "料理"]
+  }
+}
+
