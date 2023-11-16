@@ -26,4 +26,5 @@ https://qiita.com/tmiyata25/items/e8866dfed6dd4b9a02ad
     SearchKey=xxx
     ...
     ```
-4. run `python source.py`
+4. run `. ../venv/bin/activate`
+5. run `python send_request.py`
