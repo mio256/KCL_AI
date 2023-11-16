@@ -44,10 +44,10 @@ setup_byod(aoai_deployment_id)
 
 completion = openai.ChatCompletion.create(
     messages=[
-        {
-            "role": "system",
-            "content": "あなたは人々が情報を見つけるのを助けるAIアシスタントです。日本語の書類を取り出したら、日本語でよく読んで、日本語で答えてください。"
-        },
+        # {
+        #     "role": "system",
+        #     "content": "あなたは人々が情報を見つけるのを助けるAIアシスタントです。日本語の書類を取り出したら、日本語でよく読んで、日本語で答えてください。"
+        # },
         {
             "role": "user",
             "content": input('>')
