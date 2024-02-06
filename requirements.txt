@@ -1,5 +1,0 @@
-django
-django-rest-framework
-openai==0.28
-python-dotenv
-requests

@@ -1,30 +1,13 @@
 # KCL_AI/scripts
 
-https://zenn.dev/microsoft/articles/ad14d45121abe7#2.2.-%E6%97%A5%E6%9C%AC%E8%AA%9E
+## setup
 
-https://qiita.com/tmiyata25/items/e8866dfed6dd4b9a02ad
-
-1. make .env
-   ```
-    AOAIDeploymentId=
-    AOAIEndpoint=
-    AOAIKey=
-    SearchEndpoint=
-    SearchIndex=
-    SearchKey=
-   ```
-2. run `export $(cat .env| grep -v "#" | xargs)` in shell
-3. run `export` and check env
-    ```
-    ...
-    AOAIDeploymentId=xxx
-    AOAIEndpoint=xxx
-    AOAIKey=xxx
-    ...
-    SearchEndpoint=xxx
-    SearchIndex=xxx
-    SearchKey=xxx
-    ...
-    ```
-4. run `. ../venv/bin/activate`
-5. run `python send_request.py`
+```sh
+cp .envrc_base .envrc
+# .envrcにAPI_KEYを入力する
+direnv
+python3 -m venv venv
+. ./venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
